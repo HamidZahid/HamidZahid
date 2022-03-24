@@ -59,7 +59,7 @@
 <br/>
 <br/>
 
-<a href="https://github.com/HamidZahid/github-readme-activity-graph"><img alt="Hamid Zahid's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=HamidZahid&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
+<!-- <a href="https://github.com/HamidZahid/github-readme-activity-graph"><img alt="Hamid Zahid's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=HamidZahid&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a> -->
 
 <br/>
 <br/>
