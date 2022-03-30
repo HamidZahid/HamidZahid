@@ -25,7 +25,7 @@
     <a href="https://getbootstrap.com" target="_blank"> <img src="https://img.icons8.com/color/48/000000/bootstrap.png"/> </a> 
     <a href="https://www.cplusplus.com/info/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/> </a>
     <a href="https://www.python.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/python.png"/> </a> 
-    <a href="https://www.typescriptlang.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/typescript.png" style="width:100px"/> </a> 
+    <a href="https://www.typescriptlang.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/typescript.png" style="width:80px height:80px"/> </a> 
     <a href="https://angular.io" target="_blank"> <img src="https://img.icons8.com/color/48/000000/angularjs.png"/> </a> 
     <a style="padding-right:12px;" href="https://nodejs.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/nodejs.png"/> </a> 
     <a style="padding-right:8px;" href="https://www.mysql.com/" target="_blank"> <img src="https://img.icons8.com/fluent/50/000000/mysql-logo.png"/> </a>
