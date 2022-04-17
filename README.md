@@ -32,7 +32,7 @@
     <a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" style="width:60px "/> </a> 
     <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/git.png" style="width:60px "/> </a> 
     <br>
-    <a href="https://www.php.net" target="_blank"> <img src="https://img.icons8.com/glyph-neue/64/000000/php.png"/> </a> 
+    <a href="https://www.php.net" target="_blank"> <img src="https://img.icons8.com/wired/50/000000/php-logo.png"/> </a> 
     <!-- <a href="https://wordpress.org" target="_blank"> <img src="https://img.icons8.com/ios-glyphs/60/000000/wordpress--v1.png" alt="Wordpress" /> </a>    -->
     <!-- <a href="https://www.jenkins.io" target="_blank"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="48" height="48"/> </a>  -->
     <!-- <a href="https://redux.js.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/redux.png"/> </a> -->
