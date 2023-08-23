@@ -1,11 +1,11 @@
 <a href="#"><img width="100%" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="175px"/></a>
 
 <h1 align="center">Hi, I'm Hamid Zahid</h1>
-<h3 align="center">I'm a Passionate Full Stack Developer from Pakistan.</h3>
+<h3 align="center">I'm an enthusiastic Web Developer hailing from Pakistan.</h3>
 
 ## 🙋‍♂️ About Me
 
-- 🌱 I’m currently learning **Data Structures and Algorithms.**
+- 🌱 I’m currently learning **Next.js & Python Django.**
 
 - 👯 I’m looking to collaborate on **OpenSource Projects**
 
@@ -13,30 +13,30 @@
 
 - 📫 How to reach me **hamidchaudhary3867@gmail.com**
 
-- ⚡ Fun fact **I play games and go to the GYM very often.**
+- ⚡ Fun fact **I play games and go to the Gym very often.**
 
 ## 🚀 Languages and Tools:
 
 <p align="left"> 
-    <a href="https://reactjs.org/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/react-native.png"style="width:60px "/> </a>
-    <a href="https://angular.io" target="_blank"> <img src="https://img.icons8.com/color/48/000000/angularjs.png" style="width:60px " /> </a> 
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://img.icons8.com/color/48/000000/javascript.png"style="width:60px " /> </a> 
-    <a href="https://www.w3.org/html/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/html-5.png" style="width:60px "/> </a> 
-    <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/css3.png"style="width:60px " /> </a> 
-    <a href="https://getbootstrap.com" target="_blank"> <img src="https://img.icons8.com/color/48/000000/bootstrap.png"style="width:60px " /> </a> 
-    <a href="https://www.cplusplus.com/info/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"style="width:60px " /> </a>
-    <a href="https://www.python.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/python.png" style="width:60px "/> </a> 
-    <a href="https://www.typescriptlang.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/typescript.png" style="width:60px "/> </a> 
-    <a style="padding-right:12px;" href="https://nodejs.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/nodejs.png" style="width:60px " /> </a> 
-    <a style="padding-right:8px;" href="https://www.mysql.com/" target="_blank"> <img src="https://img.icons8.com/fluent/50/000000/mysql-logo.png" style="width:60px " /> </a>
-    <a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" style="width:60px "/> </a> 
-    <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/git.png" style="width:60px "/> </a> 
+    <a href="https://reactjs.org/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/react-native.png"style="width:80px "/> </a>
+    <a href="https://angular.io" target="_blank"> <img src="https://img.icons8.com/color/48/000000/angularjs.png" style="width:80px " /> </a> 
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://img.icons8.com/color/48/000000/javascript.png"style="width:80px " /> </a> 
+    <a href="https://www.w3.org/html/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/html-5.png" style="width:80px "/> </a> 
+    <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/css3.png"style="width:80px " /> </a> 
+    <a href="https://getbootstrap.com" target="_blank"> <img src="https://img.icons8.com/color/48/000000/bootstrap.png"style="width:80px " /> </a> 
+    <a href="https://www.cplusplus.com/info/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"style="width:80px " /> </a>
+    <a href="https://www.python.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/python.png" style="width:80px "/> </a> 
+    <a href="https://www.typescriptlang.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/typescript.png" style="width:80px "/> </a> 
+    <a style="padding-right:12px;" href="https://nodejs.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/nodejs.png" style="width:80px " /> </a> 
+    <a style="padding-right:8px;" href="https://www.mysql.com/" target="_blank"> <img src="https://img.icons8.com/fluent/50/000000/mysql-logo.png" style="width:80px " /> </a>
+    <a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" style="width:80px "/> </a> 
+    <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/git.png" style="width:80px "/> </a> 
     <br>
-    <a href="https://www.php.net" target="_blank"> <img src="https://img.icons8.com/color/48/000000/php.png" style="width:60px"/></a> 
-    <a href="https://wordpress.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/wordpress.png" alt="Wordpress" style="width:60px" /> </a>   
-    <a href="https://code.visualstudio.com" target="_blank"> <img src="https://img.icons8.com/nolan/64/visual-studio.png" style="width:60px"/> </a> 
-    <a href="https://redux.js.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/redux.png" style="width:60px "/> </a>
-    <!-- <a href="https://expressjs.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" style="width:60px"/> </a> -->
+    <a href="https://www.php.net" target="_blank"> <img src="https://img.icons8.com/color/48/000000/php.png" style="width:80px"/></a> 
+    <a href="https://wordpress.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/wordpress.png" alt="Wordpress" style="width:80px" /> </a>   
+    <a href="https://code.visualstudio.com" target="_blank"> <img src="https://img.icons8.com/nolan/64/visual-studio.png" style="width:80px"/> </a> 
+    <a href="https://redux.js.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/redux.png" style="width:80px "/> </a>
+    <!-- <a href="https://expressjs.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" style="width:80px"/> </a> -->
 </p>
 
 <!-- [![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#)  [![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)](#) [![Typescript Badge](https://img.shields.io/badge/-Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)](#) [![Nodejs Badge](https://img.shields.io/badge/-Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#) [![GraphQL Badge](https://img.shields.io/badge/-GraphQl-e535ab?style=for-the-badge&labelColor=black&logo=node.js&logoColor=e535ab)](#) -->
