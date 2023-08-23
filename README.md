@@ -37,10 +37,10 @@
     <a href="https://code.visualstudio.com" target="_blank"> <img src="https://img.icons8.com/nolan/64/visual-studio.png" style="width:70px"/> </a> 
     <a href="https://redux.js.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/redux.png" style="width:70px "/> </a>
     <a href="https://expressjs.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" style="width:70px"/> </a>
-    <a href="https://nextjs.org/" target="_blank"> <img src="https://img.icons8.com/glyph-neue/64/naira.png" alt="Next.js" style="width:70px"/> </a>
+    <a href="https://nextjs.org/" target="_blank"> <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgorzelinski.com%2Fblog%2Fnext-js-overview-in-1000-words%2F&psig=AOvVaw05tLDZOvfgEeo2boYp9ilP&ust=1692850391957000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKDeqaP18YADFQAAAAAdAAAAABAE" alt="Next.js" style="width:70px"/> </a>
 </p>
 
-<!-- [![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#)  [![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)](#) [![Typescript Badge](https://img.shields.io/badge/-Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)](#) [![Nodejs Badge](https://img.shields.io/badge/-Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#) [![GraphQL Badge](https://img.shields.io/badge/-GraphQl-e535ab?style=for-the-badge&labelColor=black&logo=node.js&logoColor=e535ab)](#) -->
+<!-- [![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#) [![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)](#) [![Typescript Badge](https://img.shields.io/badge/-Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)](#) [![Nodejs Badge](https://img.shields.io/badge/-Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#) [![GraphQL Badge](https://img.shields.io/badge/-GraphQl-e535ab?style=for-the-badge&labelColor=black&logo=node.js&logoColor=e535ab)](#) -->
 <br/>
 
 <p align="center">
@@ -60,8 +60,6 @@
 <br/>
 <br/>
 
-<a href="https://github.com/HamidZahid/github-readme-activity-graph"><img alt="Hamid Zahid's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=HamidZahid&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
-
 <br/>
 <br/>
 
@@ -70,7 +68,7 @@
 <p align="left">
 
 <a href = "https://www.linkedin.com/in/hamid-zahid/"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
-<a href = "https://www.instagram.com/ch_hamid_zahid/"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+<a href = "https://www.instagram.com/damnhamid/"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
 
 <!-- <a href = "https://www.instagram.com/ch_hamid_zahid/"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a> -->
 <!-- <a href = "https://www.youtube.com/channel/UC-NXT1lYAOPa3lrgWXqvuHA"><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></a> -->
