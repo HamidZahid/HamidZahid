@@ -31,7 +31,7 @@
     <a style="padding-right:8px;" href="https://www.mysql.com/" target="_blank"> <img src="https://img.icons8.com/fluent/50/000000/mysql-logo.png" style="width:70px " /> </a>
     <a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" style="width:70px "/> </a> 
     <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/git.png" style="width:70px "/> </a> 
-    <br>
+    <!-- <br> -->
     <a href="https://www.php.net" target="_blank"> <img src="https://img.icons8.com/color/48/000000/php.png" style="width:70px"/></a> 
     <a href="https://wordpress.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/wordpress.png" alt="Wordpress" style="width:70px" /> </a>   
     <a href="https://code.visualstudio.com" target="_blank"> <img src="https://img.icons8.com/nolan/64/visual-studio.png" style="width:70px"/> </a> 
