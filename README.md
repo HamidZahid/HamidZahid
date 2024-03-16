@@ -13,7 +13,7 @@
 
 - 📫 How to reach me **hamidchaudhary3867@gmail.com**
 
-- ⚡ Fun fact **I play games and go to the Gym very often.**
+- ⚡ Fun fact **I play games and go to Gym very often.**
 
 ## 🚀 Languages and Tools:
 
@@ -36,8 +36,8 @@
     <a href="https://wordpress.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/wordpress.png" alt="Wordpress" style="width:70px" /> </a>   
     <a href="https://code.visualstudio.com" target="_blank"> <img src="https://img.icons8.com/nolan/64/visual-studio.png" style="width:70px"/> </a> 
     <a href="https://redux.js.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/redux.png" style="width:70px "/> </a>
-    <a href="https://expressjs.com" target="_blank"> <img src="/images/express.js.png" alt="express" style="width:80px"/> </a>
-    <a href="https://nextjs.org/" target="_blank"> <img src="./images/nextjs.jpg" alt="Next.js" style="width:80px"/> </a>
+<!--     <a href="https://expressjs.com" target="_blank"> <img src="/images/express.js.png" alt="express" style="width:80px"/> </a>
+    <a href="https://nextjs.org/" target="_blank"> <img src="./images/nextjs.jpg" alt="Next.js" style="width:80px"/> </a> -->
 </p>
 
 <!-- [![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#) [![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)](#) [![Typescript Badge](https://img.shields.io/badge/-Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)](#) [![Nodejs Badge](https://img.shields.io/badge/-Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#) [![GraphQL Badge](https://img.shields.io/badge/-GraphQl-e535ab?style=for-the-badge&labelColor=black&logo=node.js&logoColor=e535ab)](#) -->
@@ -80,7 +80,7 @@
 
 ## ❤ Views and Followers
 
-<a href="https://github.com/Meghna-DAS/github-profile-views-counter">
+<!---<a href="https://github.com/Meghna-DAS/github-profile-views-counter">
     <img src="https://komarev.com/ghpvc/?username=HamidZahid">
-</a>
+</a>-->
 <a href="https://github.com/HamidZahid?tab=followers"><img src="https://img.shields.io/github/followers/HamidZahid?label=Followers&style=social" alt="GitHub Badge"></a>
