@@ -5,7 +5,7 @@
 
 ## 🙋‍♂️ About Me
 
-- 🌱 I’m currently learning **Next.js & Python Django.**
+- 🌱 I’m currently learning **Generative AI**
 
 - 👯 I’m looking to collaborate on **OpenSource Projects**
 
