@@ -5,7 +5,7 @@
 
 ## 🙋‍♂️ About Me
 
-- 🌱 I’m currently learning **Generative AI**
+- 🌱 I’m currently learning **DevOps**
 
 - 👯 I’m looking to collaborate on **OpenSource Projects**
 
