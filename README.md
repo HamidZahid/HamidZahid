@@ -5,7 +5,7 @@
 
 ## 🙋‍♂️ About Me
 
-- 🌱 I’m currently learning ****
+- 🌱 I’m currently learning **Development Operation**
 
 - 👯 I’m looking to collaborate on **OpenSource Projects**
 
