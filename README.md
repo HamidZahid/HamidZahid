@@ -5,7 +5,7 @@
 
 ## 🙋‍♂️ About Me
 
-- 🌱 I’m currently learning **Ai Agent**
+- 🌱 I’m currently learning **Ai Agents**
 
 - 👯 I’m looking to collaborate on **OpenSource Projects**
 
