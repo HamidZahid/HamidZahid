@@ -1,7 +1,7 @@
 <a href="#"><img width="100%" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="175px"/></a>
 
 <h1 align="center">Hi, I'm Hamid Zahid</h1>
-<h3 align="center">I'm an enthusiastic Web Developer hailing from Pakistan.</h3>
+<h3 align="center">I'm an enthusiastic Software Engineer hailing from Pakistan.</h3>
 
 ## 🙋‍♂️ About Me
 
@@ -32,8 +32,8 @@
     <a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" style="width:70px "/> </a> 
     <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/git.png" style="width:70px "/> </a> 
     <!-- <br> -->
-    <a href="https://www.php.net" target="_blank"> <img src="https://img.icons8.com/color/48/000000/php.png" style="width:70px"/></a> 
-    <a href="https://wordpress.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/wordpress.png" alt="Wordpress" style="width:70px" /> </a>   
+<!--     <a href="https://www.php.net" target="_blank"> <img src="https://img.icons8.com/color/48/000000/php.png" style="width:70px"/></a>  -->
+<!--     <a href="https://wordpress.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/wordpress.png" alt="Wordpress" style="width:70px" /> </a>    -->
     <a href="https://code.visualstudio.com" target="_blank"> <img src="https://img.icons8.com/nolan/64/visual-studio.png" style="width:70px"/> </a> 
     <a href="https://redux.js.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/redux.png" style="width:70px "/> </a>
 <!--     <a href="https://expressjs.com" target="_blank"> <img src="/images/express.js.png" alt="express" style="width:80px"/> </a>
