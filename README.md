@@ -9,7 +9,7 @@
 
 - 👯 I’m looking to collaborate on **OpenSource Projects**
 
-- 👨‍💻 All of my projects are available at **[My Portfolio](https://stunning-pegasus-f6ff17.netlify.app/)**
+- 👨‍💻 All of my projects are available at **[My Portfolio](https://hamid-zahid.netlify.app/)**
 
 - 📫 How to reach me **hamidchaudhary3867@gmail.com**
 
