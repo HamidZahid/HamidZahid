@@ -3,7 +3,7 @@
 <h1 align="center">Hi, I'm Hamid Zahid</h1>
 <h3 align="center">I'm an enthusiastic Software Engineer hailing from Pakistan.</h3>
 
-## 🙋‍♂️ About 
+## 🙋‍♂️ About Me 
 
 - 🌱 I’m currently learning **Agentic Ai**
 
