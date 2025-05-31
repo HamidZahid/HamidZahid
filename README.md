@@ -1,6 +1,6 @@
 <a href="#"><img width="100%" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="175px"/></a>
 
-<h1 align="center"I'm Hamid Zahid</h1>
+<h1 align="center">Hi ,I'm Hamid Zahid</h1>
 <h3 align="center">I'm an enthusiastic Software Engineer hailing from Pakistan.</h3>
 
 ## 🙋‍♂️ About Me
