@@ -1,7 +1,7 @@
 <a href="#"><img width="100%" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="175px"/></a>
 
 <h1 align="center">Hi ,I'm Hamid Zahid </h1>
-<h3 align="center">I'm an enthusiastic Software Engineer hailing from Pakistan.</h3>
+<h3 align="center">An enthusiastic Software Engineer from Pakistan, I thrive on creating impactful, scalable technologies that solve real-world problems.</h3>
 
 ## 🙋‍♂️ About Me
 
@@ -70,8 +70,8 @@
 <a href = "https://www.linkedin.com/in/hamid-zahid/"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
 <a href = "https://www.instagram.com/damnhamid/"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
 
-<!-- <a href = "https://leetcode.com/HamidZahid/"><img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png"/></a>
-<a href = "https://www.hackerrank.com/hamidchaudhary31"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/external-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-logo-shadow-tal-revivo.png"/></a> -->
+<a href = "https://leetcode.com/HamidZahid/"><img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png"/></a>
+<a href = "https://www.hackerrank.com/hamidchaudhary31"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/external-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-logo-shadow-tal-revivo.png"/></a>
 
 <!-- <a href = "https://www.instagram.com/ch_hamid_zahid/"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a> -->
 <!-- <a href = "https://www.youtube.com/channel/UC-NXT1lYAOPa3lrgWXqvuHA"><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></a> -->
