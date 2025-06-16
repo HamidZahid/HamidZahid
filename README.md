@@ -5,7 +5,7 @@
 
 ## 🙋‍♂️ About Me
 
-- 🌱 I’m currently learning **Agentic Ai**
+- 🌱 I’m currently learning **OpenAi Agents SDK**
 
 - 👯 I’m looking to collaborate on **OpenSource Projects**
 
@@ -34,8 +34,8 @@
     <!-- <br> -->
 <!--     <a href="https://www.php.net" target="_blank"> <img src="https://img.icons8.com/color/48/000000/php.png" style="width:70px"/></a>  -->
 <!--     <a href="https://wordpress.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/wordpress.png" alt="Wordpress" style="width:70px" /> </a>    -->
-    <a href="https://code.visualstudio.com" target="_blank"> <img src="https://img.icons8.com/nolan/64/visual-studio.png" style="width:70px"/> </a> 
-    <a href="https://redux.js.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/redux.png" style="width:70px "/> </a>
+<!--     <a href="https://code.visualstudio.com" target="_blank"> <img src="https://img.icons8.com/nolan/64/visual-studio.png" style="width:70px"/> </a>  -->
+<!--     <a href="https://redux.js.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/redux.png" style="width:70px "/> </a> -->
 <!--     <a href="https://expressjs.com" target="_blank"> <img src="/images/express.js.png" alt="express" style="width:80px"/> </a>
     <a href="https://nextjs.org/" target="_blank"> <img src="./images/nextjs.jpg" alt="Next.js" style="width:80px"/> </a> -->
 </p>
