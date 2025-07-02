@@ -3,11 +3,13 @@ name: 🛠️ Auto Update Profile README
 on:
   schedule:
     - cron: "0 6 * * *"  # every day 6AM UTC
+    - cron: "0 18 * * *" # every day 6PM UTC
   workflow_dispatch:
 
 jobs:
-  update-readme:
+  update-readme-morning:
     runs-on: ubuntu-latest
+    name: Morning Update
 
     steps:
       - name: Checkout repository
@@ -23,20 +25,108 @@ jobs:
           echo "QUOTE_TEXT=$(jq -r .content quote.json)" >> $GITHUB_ENV
           echo "QUOTE_AUTHOR=$(jq -r .author quote.json)" >> $GITHUB_ENV
 
-      - name: Update README.md
+      - name: Update README.md - Morning
         run: |
           echo "## 👋 Hi, I'm Hamid Zahid!" > README.md
           echo "" >> README.md
           echo "⏰ Today is $(date '+%A, %d %B %Y')" >> README.md
           echo "" >> README.md
+          echo "🌅 **Morning Update** - $(date '+%H:%M UTC')" >> README.md
+          echo "" >> README.md
           echo "> 💬 *$QUOTE_TEXT*" >> README.md
           echo "— **$QUOTE_AUTHOR**" >> README.md
+          echo "" >> README.md
+          echo "---" >> README.md
+          echo "" >> README.md
+          echo "### 🚀 Languages and Tools:" >> README.md
+          echo "" >> README.md
+          echo "<p align=\"left\">" >> README.md
+          echo "    <a href=\"https://reactjs.org/\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/react-native.png\" style=\"width:70px\"/> </a>" >> README.md
+          echo "    <a href=\"https://angular.io\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/angularjs.png\" style=\"width:70px\" /> </a>" >> README.md
+          echo "    <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/javascript.png\" style=\"width:70px\" /> </a>" >> README.md
+          echo "    <a href=\"https://www.w3.org/html/\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/html-5.png\" style=\"width:70px\"/> </a>" >> README.md
+          echo "    <a href=\"https://www.w3schools.com/css/\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/css3.png\" style=\"width:70px\" /> </a>" >> README.md
+          echo "    <a href=\"https://getbootstrap.com\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/bootstrap.png\" style=\"width:70px\" /> </a>" >> README.md
+          echo "    <a href=\"https://www.cplusplus.com/info/\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/c-plus-plus-logo.png\" style=\"width:70px\" /> </a>" >> README.md
+          echo "    <a href=\"https://www.python.org\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/python.png\" style=\"width:70px\"/> </a>" >> README.md
+          echo "    <a href=\"https://www.typescriptlang.org\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/typescript.png\" style=\"width:70px\"/> </a>" >> README.md
+          echo "    <a href=\"https://nodejs.org\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/nodejs.png\" style=\"width:70px\" /> </a>" >> README.md
+          echo "    <a href=\"https://www.mysql.com/\" target=\"_blank\"> <img src=\"https://img.icons8.com/fluent/50/000000/mysql-logo.png\" style=\"width:70px\" /> </a>" >> README.md
+          echo "    <a href=\"https://www.mongodb.com/\" target=\"_blank\"> <img src=\"https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg\" alt=\"mongodb\" style=\"width:70px\"/> </a>" >> README.md
+          echo "    <a href=\"https://git-scm.com/\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/git.png\" style=\"width:70px\"/> </a>" >> README.md
+          echo "</p>" >> README.md
 
-      - name: Commit & push changes
+      - name: Commit & push changes - Morning
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
           git diff --quiet && echo "No changes to commit" && exit 0
-          git commit -m "🤖 Auto-updated README on $(date)"
+          git commit -m "🌅 Morning update - $(date '+%Y-%m-%d %H:%M UTC')"
+          git push
+
+  update-readme-evening:
+    runs-on: ubuntu-latest
+    name: Evening Update
+    needs: update-readme-morning
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install jq
+        run: sudo apt-get install -y jq
+
+      - name: Fetch a different motivational quote
+        id: get-quote
+        run: |
+          curl -s "https://api.quotable.io/random?tags=technology|success" > quote.json
+          echo "QUOTE_TEXT=$(jq -r .content quote.json)" >> $GITHUB_ENV
+          echo "QUOTE_AUTHOR=$(jq -r .author quote.json)" >> $GITHUB_ENV
+
+      - name: Get current time
+        id: time
+        run: echo "TIME=$(date '+%H:%M UTC')" >> $GITHUB_ENV
+
+      - name: Update README.md - Evening
+        run: |
+          # Read existing content and add evening update
+          echo "## 👋 Hi, I'm Hamid Zahid!" > README.md
+          echo "" >> README.md
+          echo "⏰ Today is $(date '+%A, %d %B %Y')" >> README.md
+          echo "" >> README.md
+          echo "🌅 **Morning Update** - 06:00 UTC" >> README.md
+          echo "" >> README.md
+          echo "🌙 **Evening Update** - $TIME" >> README.md
+          echo "" >> README.md
+          echo "> 💬 *$QUOTE_TEXT*" >> README.md
+          echo "— **$QUOTE_AUTHOR**" >> README.md
+          echo "" >> README.md
+          echo "---" >> README.md
+          echo "" >> README.md
+          echo "### 🚀 Languages and Tools:" >> README.md
+          echo "" >> README.md
+          echo "<p align=\"left\">" >> README.md
+          echo "    <a href=\"https://reactjs.org/\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/react-native.png\" style=\"width:70px\"/> </a>" >> README.md
+          echo "    <a href=\"https://angular.io\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/angularjs.png\" style=\"width:70px\" /> </a>" >> README.md
+          echo "    <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/javascript.png\" style=\"width:70px\" /> </a>" >> README.md
+          echo "    <a href=\"https://www.w3.org/html/\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/html-5.png\" style=\"width:70px\"/> </a>" >> README.md
+          echo "    <a href=\"https://www.w3schools.com/css/\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/css3.png\" style=\"width:70px\" /> </a>" >> README.md
+          echo "    <a href=\"https://getbootstrap.com\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/bootstrap.png\" style=\"width:70px\" /> </a>" >> README.md
+          echo "    <a href=\"https://www.cplusplus.com/info/\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/c-plus-plus-logo.png\" style=\"width:70px\" /> </a>" >> README.md
+          echo "    <a href=\"https://www.python.org\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/python.png\" style=\"width:70px\"/> </a>" >> README.md
+          echo "    <a href=\"https://www.typescriptlang.org\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/typescript.png\" style=\"width:70px\"/> </a>" >> README.md
+          echo "    <a href=\"https://nodejs.org\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/nodejs.png\" style=\"width:70px\" /> </a>" >> README.md
+          echo "    <a href=\"https://www.mysql.com/\" target=\"_blank\"> <img src=\"https://img.icons8.com/fluent/50/000000/mysql-logo.png\" style=\"width:70px\" /> </a>" >> README.md
+          echo "    <a href=\"https://www.mongodb.com/\" target=\"_blank\"> <img src=\"https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg\" alt=\"mongodb\" style=\"width:70px\"/> </a>" >> README.md
+          echo "    <a href=\"https://git-scm.com/\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/git.png\" style=\"width:70px\"/> </a>" >> README.md
+          echo "</p>" >> README.md
+
+      - name: Commit & push changes - Evening
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --quiet && echo "No changes to commit" && exit 0
+          git commit -m "🌙 Evening update - $(date '+%Y-%m-%d %H:%M UTC')"
           git push
