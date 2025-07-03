@@ -4,8 +4,6 @@ on:
   schedule:
     - cron: "0 1 * * *"  # every day 6AM Pakistan time (UTC +05:00)
     - cron: "5 21 * * *" # every day 2:05AM Pakistan time (UTC +05:00)
-    - cron: "30 1 * * *" # every day 6:30AM Pakistan time (backup)
-    - cron: "15 21 * * *" # every day 2:15AM Pakistan time (backup)
   workflow_dispatch:
 
 jobs:
@@ -103,6 +101,8 @@ jobs:
             echo "    <a href=\"https://www.mongodb.com/\" target=\"_blank\"> <img src=\"https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg\" alt=\"mongodb\" style=\"width:70px\"/> </a>" >> README.md
             echo "    <a href=\"https://git-scm.com/\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/git.png\" style=\"width:70px\"/> </a>" >> README.md
             echo "</p>" >> README.md
+            echo "" >> README.md
+            echo "Last updated: $(date -d '+5 hours' '+%Y-%m-%d %H:%M:%S PKT')" >> README.md
           else
             # Evening update - append to existing README
             if [ -f README.md ]; then
@@ -117,6 +117,8 @@ jobs:
               awk '/🌅 \*\*Morning Update\*\*/ { print; system("cat temp_evening.md"); next } 1' README.md > README_new.md
               mv README_new.md README.md
               rm temp_evening.md
+              echo "" >> README.md
+              echo "Last updated: $(date -d '+5 hours' '+%Y-%m-%d %H:%M:%S PKT')" >> README.md
             else
               # If no README exists, create one
               echo "## 👋 Hi, I'm Hamid Zahid!" > README.md
@@ -147,6 +149,8 @@ jobs:
               echo "    <a href=\"https://www.mongodb.com/\" target=\"_blank\"> <img src=\"https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg\" alt=\"mongodb\" style=\"width:70px\"/> </a>" >> README.md
               echo "    <a href=\"https://git-scm.com/\" target=\"_blank\"> <img src=\"https://img.icons8.com/color/48/000000/git.png\" style=\"width:70px\"/> </a>" >> README.md
               echo "</p>" >> README.md
+              echo "" >> README.md
+              echo "Last updated: $(date -d '+5 hours' '+%Y-%m-%d %H:%M:%S PKT')" >> README.md
             fi
           fi
 
@@ -155,7 +159,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --quiet && echo "No changes to commit" && exit 0
           if [ "$UPDATE_TYPE" = "morning" ]; then
             git commit -m "🌅 Morning update - $(date -d '+5 hours' '+%Y-%m-%d %H:%M PKT')"
           else
