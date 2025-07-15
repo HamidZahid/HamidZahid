@@ -1,4 +1,4 @@
-olol<a href="#"><img width="100%" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="175px"/></a>
+ol<a href="#"><img width="100%" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="175px"/></a>
 
 <h1 align="center">Hi ,I'm Hamid Zahid</h1>
 <h3 align="center">An enthusiastic Software Engineer from Pakistan, I thrive on creating impactful, scalable technologies that solve real-world problems.</h3>
