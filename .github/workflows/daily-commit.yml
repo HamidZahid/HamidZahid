@@ -1,0 +1,30 @@
+name: Daily Commit to Profile
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Every day at 00:00 UTC
+  workflow_dispatch:     # Manual trigger option
+
+jobs:
+  daily-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Update README.md
+        run: |
+          echo "## 👋 Updated on $(date -u '+%Y-%m-%d %H:%M UTC')" > README.md
+          echo "" >> README.md
+          echo "This is an automated update to keep the profile active. ✨" >> README.md
+          echo "" >> README.md
+          echo "You can edit this workflow in \`.github/workflows/daily-commit.yml\`" >> README.md
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "🔄 chore: daily update on $(date -u '+%Y-%m-%d')" || echo "No changes to commit"
+          git push
