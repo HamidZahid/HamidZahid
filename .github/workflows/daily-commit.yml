@@ -1,30 +1,27 @@
-name: Daily Commit to Profile
+name: Safe 4x Daily Commit
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Every day at 00:00 UTC
-  workflow_dispatch:     # Manual trigger option
+    - cron: '0 */6 * * *'  # every 6 hours (i.e., 4 times/day: 00:00, 06:00, 12:00, 18:00 UTC)
+  workflow_dispatch:
 
 jobs:
-  daily-update:
+  safe-daily-update:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Update README.md
+      - name: Add timestamp at the end of README
         run: |
-          echo "## 👋 Updated on $(date -u '+%Y-%m-%d %H:%M UTC')" > README.md
           echo "" >> README.md
-          echo "This is an automated update to keep the profile active. ✨" >> README.md
-          echo "" >> README.md
-          echo "You can edit this workflow in \`.github/workflows/daily-commit.yml\`" >> README.md
+          echo "<!-- Last updated on $(date -u '+%Y-%m-%d %H:%M:%S UTC') -->" >> README.md
 
-      - name: Commit and Push changes
+      - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "🔄 chore: daily update on $(date -u '+%Y-%m-%d')" || echo "No changes to commit"
+          git commit -m "chore: update timestamp - $(date -u)" || echo "No changes"
           git push
