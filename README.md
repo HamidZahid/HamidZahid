@@ -5,7 +5,7 @@
 
 ## 🙋‍♂️ About Me
 
-- 🌱 I’m currently learning **OpenAi Agents SDK**
+- 🌱 I’m currently learning **Data Structure And Algorithm, System Design And Software Architecture**
 
 - 👯 I’m looking to collaborate on **OpenSource Projects**
 
