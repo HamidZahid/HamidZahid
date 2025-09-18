@@ -1,8 +1,8 @@
-name: Safe 4x Daily Commit
+name: Safe 6x Daily Commit
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # 4 times a day
+    - cron: '0 */4 * * *'  # 6 times a day
   workflow_dispatch:
 
 jobs:
@@ -16,7 +16,7 @@ jobs:
       - name: Append timestamp at end of README.md
         run: |
           echo "" >> README.md
-          echo "<!-- Last updated on $(date -u '+%Y-%m-%d %H:%M:%S UTC') -->" >> README.md
+          echo "<!-- Hamid Zahid ASE - FISTA Solutions -->" >> README.md
 
       - name: Commit and push if changed
         run: |
