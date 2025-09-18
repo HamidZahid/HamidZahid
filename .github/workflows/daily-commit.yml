@@ -23,5 +23,5 @@ jobs:
           git config --global user.name "Hamid Zahid"
           git config --global user.email "HamidZahid@users.noreply.github.com" # or your real GitHub email
           git add README.md
-          git commit -m "Profile Update"
+          git commit -m "Hamid Zahid ASE - FISTA Solutions"
           git push
