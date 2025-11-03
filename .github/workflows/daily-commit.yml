@@ -2,7 +2,7 @@
 
 # on:
 #   schedule:
-#     - cron: '0 */4 * * *'  # 6 times a day
+#     - cron: '0 */4 * * *'  # Runs every 4 hours = 6 times/day
 #   workflow_dispatch:
 
 # jobs:
@@ -13,23 +13,25 @@
 #       - name: Checkout repo
 #         uses: actions/checkout@v4
 
-#       - name: Append timestamp at end of README.md
-#         run: |
-#           echo "" >> README.md
-#           echo "<!-- Hamid Zahid ASE - FISTA Solutions -->" >> README.md
-
-#       - name: Commit and push if changed
+#       - name: Make 6 commits with name
 #         run: |
 #           git config --global user.name "Hamid Zahid"
-#           git config --global user.email "HamidZahid@users.noreply.github.com" # or your real GitHub email
-#           git add README.md
-#           git commit -m "Hamid Zahid ASE - FISTA Solutions"
+#           git config --global user.email "HamidZahid@users.noreply.github.com"
+
+#           for i in {1..6}
+#           do
+#             echo "" >> README.md
+#             echo "<!-- Commit $i by Hamid Zahid ASE - FISTA Solutions -->" >> README.md
+#             git add README.md
+#             git commit -m "Commit $i - Hamid Zahid ASE - FISTA Solutions"
+#           done
+
 #           git push
-name: Safe 6x Daily Commit
+name: Safe 2x Daily Commit
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # Runs every 4 hours = 6 times/day
+    - cron: '0 8,20 * * *'  # Runs twice daily at 8 AM and 8 PM UTC
   workflow_dispatch:
 
 jobs:
@@ -40,12 +42,14 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Make 6 commits with name
+      - name: Make 3–5 commits
         run: |
           git config --global user.name "Hamid Zahid"
           git config --global user.email "HamidZahid@users.noreply.github.com"
 
-          for i in {1..6}
+          COUNT=$((RANDOM % 3 + 3))  # Random 3–5 commits
+
+          for i in $(seq 1 $COUNT)
           do
             echo "" >> README.md
             echo "<!-- Commit $i by Hamid Zahid ASE - FISTA Solutions -->" >> README.md
@@ -54,3 +58,4 @@ jobs:
           done
 
           git push
+
