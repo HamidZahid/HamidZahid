@@ -1,32 +1,4 @@
-# name: Safe 6x Daily Commit
 
-# on:
-#   schedule:
-#     - cron: '0 */4 * * *'  # Runs every 4 hours = 6 times/day
-#   workflow_dispatch:
-
-# jobs:
-#   safe-daily-update:
-#     runs-on: ubuntu-latest
-
-#     steps:
-#       - name: Checkout repo
-#         uses: actions/checkout@v4
-
-#       - name: Make 6 commits with name
-#         run: |
-#           git config --global user.name "Hamid Zahid"
-#           git config --global user.email "HamidZahid@users.noreply.github.com"
-
-#           for i in {1..6}
-#           do
-#             echo "" >> README.md
-#             echo "<!-- Commit $i by Hamid Zahid ASE - FISTA Solutions -->" >> README.md
-#             git add README.md
-#             git commit -m "Commit $i - Hamid Zahid ASE - FISTA Solutions"
-#           done
-
-#           git push
 name: Safe 2x Daily Commit
 
 on:
@@ -52,9 +24,9 @@ jobs:
           for i in $(seq 1 $COUNT)
           do
             echo "" >> README.md
-            echo "<!-- Commit $i by Hamid Zahid ASE - FISTA Solutions -->" >> README.md
+            echo "<!-- Commit $i by Hamid Zahid SE - Buggcy -->" >> README.md
             git add README.md
-            git commit -m "Commit $i - Hamid Zahid ASE - FISTA Solutions"
+            git commit -m "Commit $i - Hamid Zahid SE - Buggcy"
           done
 
           git push
