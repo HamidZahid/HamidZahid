@@ -88,3 +88,5 @@
 <a href="https://github.com/HamidZahid?tab=followers"><img src="https://img.shields.io/github/followers/HamidZahid?label=Followers&style=social" alt="GitHub Badge"></a>
 
 <!-- Commit 1 by Hamid Zahid SE - Buggcy -->
+
+<!-- Commit 2 by Hamid Zahid SE - Buggcy -->
