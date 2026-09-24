@@ -24,9 +24,9 @@ jobs:
           for i in $(seq 1 $COUNT)
           do
             echo "" >> README.md
-            echo "<!-- Commit $i by Hamid Zahid SE - Buggcy -->" >> README.md
+            echo "<!-- Commit $i by Hamid Zahid SE - Devline -->" >> README.md
             git add README.md
-            git commit -m "Commit $i - Hamid Zahid SE - Buggcy"
+            git commit -m "Commit $i - Hamid Zahid SE - Devline"
           done
 
           git push
